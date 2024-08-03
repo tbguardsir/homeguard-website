@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeguard Clan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4; /* Clear background */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        #hero h2 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #4CAF50; /* Green color for the title */
+        }
+
+        #hero p {
+            color: #4CAF50; /* Green color for the subtitle */
+        }
+
+        .cta-button {
+            background: #f00;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .about-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .about-image {
+            flex: 0 0 250px; /* Adjust width as needed */
+        }
+
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            border-radius: 10px;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            max-width: calc(33.333% - 10px);
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Advertisement Styles */
+        .ad {
+            position: fixed;
+            bottom: -300px;
+            right: 20px;
+            width: 250px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: bottom 1s ease-in-out;
+        }
+
+        .ad img {
+            width: 100%;
+        }
+
+        .ad.show {
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Homeguard Clan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recruitment">Recruitment</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#video">Video</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Join the Elite Homeguard Clan</h2>
+            <p>Defend, Conquer, and Achieve Greatness!</p>
+            <a href="#recruitment" class="cta-button">Join Us</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to the Homeguard Clan, the ultimate force in Empire Clash! We are more than just a clan; we are a community of dedicated and passionate players who excel in strategy, teamwork, and domination. Our clan stands out as the best due to our unmatched skills, unwavering dedication, and our commitment to each member's growth and success.</p>
+                    <p>At Homeguard, we pride ourselves on our strong defensive tactics and strategic planning that lead us to victory. Whether you're looking to enhance your gameplay or be part of a supportive and elite team, we offer an environment where you can thrive and achieve your best. Join us and be a part of something extraordinary—experience the power of Homeguard and make your mark in the world of Empire Clash!</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://cdn.discordapp.com/attachments/1018476883928682516/1266755800492146688/Screenshot_20240727_133748_Canva.png?ex=66ae36c6&is=66ace546&hm=5edd48c191ddb18a6f7a4812f46802d5762292f7c1f37ffe0261b51b3b46eea7&" alt="Homeguard Clan">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="recruitment">
+        <div class="container">
+            <h2>Recruitment</h2>
+            <p>If you're passionate about Empire Clash and want to be part of the strongest clan around, Homeguard is the place for you! Join our Discord server to connect with our community, learn more about our clan, and start your journey with us.</p>
+            <a href="https://discord.gg/homeguard" class="cta-button" target="_blank">Join Our Discord</a>
+        </div>
+    </section>
+    
+    <section id="news">
+        <div class="container">
+            <h2>News</h2>
+            <p>Check out our latest updates and achievements!</p>
+            <!-- Add news items here -->
+        </div>
+    </section>
+    
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="https://cdn.discordapp.com/attachments/1268840712162512930/1268841409931120650/unknown.png?ex=66ade426&is=66ac92a6&hm=935d322eea7015970881e8973c4d659f24e33371a84bd99124ca3ff2956dff20&" alt="Gallery Image 1">
+                <img src="https://cdn.discordapp.com/attachments/1268840712162512930/1268842093288361996/I_WANT.png?ex=66ade4c8&is=66ac9348&hm=0e07af3d974205a71729744e459e7c437ff2f323afc59d9e26c32a6045d63764&" alt="Gallery Image 2">
+                <img src="https://cdn.discordapp.com/attachments/1268840712162512930/1268842154890100870/OHGBanner.png?ex=66ade4d7&is=66ac9357&hm=0de778e84fc2d5fe400d821980fad4fd01842d777acd21cd3723270b53492355&" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+    
+    <section id="video">
+        <div class="container">
+            <h2>Our Latest Video</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="IMG_7412.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Homeguard Clan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="ad" id="ad">
+        <img src="https://cdn.discordapp.com/attachments/1268840712162512930/1268842093288361996/I_WANT.png?ex=66ade4c8&is=66ac9348&hm=0e07af3d974205a71729744e459e7c437ff2f323afc59d9e26c32a6045d63764&" alt="Ad">
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const ad = document.getElementById('ad');
+            setTimeout(() => {
+                ad.classList.add('show');
+            }, 2000); // Show ad after 2 seconds
+        });
+    </script>
+</body>
+</html>
